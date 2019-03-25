@@ -1,0 +1,19 @@
+#bg_light {
+    background: url(Assets/Light.jpg);
+
+}
+
+	#head{
+		color: white;
+		font-size: 20px; 
+	}
+
+
+	#grad{
+background: -moz-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #050505), color-stop(9%, #050505), color-stop(87%, #FFFFFF), color-stop(100%, #FFFFFF)); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* ie10+ */
+background: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */
