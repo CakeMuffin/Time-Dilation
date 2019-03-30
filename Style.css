@@ -1,7 +1,15 @@
 .slide-right {
 	-webkit-animation: slide-right 2s linear both;
 	        animation: slide-right 2s linear both;
+          
+          
+}
 
+#anim{
+  position: relative;
+  left: 375px;
+  width: 175px;
+  height: 80px;
 }
 
 
@@ -36,6 +44,10 @@
   }
 }
 
+body{
+      padding-top: 40px;
+    }
+
 
 
 #bg_light {
@@ -57,3 +69,5 @@ background: -o-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050
 background: -ms-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* ie10+ */
 background: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */
+
+
