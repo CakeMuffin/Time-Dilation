@@ -60,6 +60,40 @@ body{
 		font-size: 20px; 
 	}
 
+th, td {
+  padding-left: 5px;
+}
+
+
+/* Media icons */
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+ /* end media icons */
 
 	#grad{
 background: -moz-linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 13%, #050505 91%, #050505 100%); /* ff3.6+ */
